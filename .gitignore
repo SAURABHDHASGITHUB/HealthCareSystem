@@ -18,3 +18,6 @@
 /Healthcare.Services/obj
 /Healthcare.Shared/bin/Debug/net8.0
 /Healthcare.Shared/obj
+/Healthcare.Infrastructure/obj/Healthcare.Infrastructure.csproj.nuget.dgspec.json
+/Healthcare.Infrastructure/obj/project.assets.json
+/Healthcare.Infrastructure/obj/project.nuget.cache

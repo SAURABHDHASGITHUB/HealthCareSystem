@@ -89,6 +89,7 @@ builder.Services.AddAuthentication(options =>
 
         IssuerSigningKey = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(key)
+            // updassted code 
         )
     };
 });
