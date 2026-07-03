@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Healthcare.Core\Healthcare.Core.csproj" />
+    <ProjectReference Include="..\Healthcare.Repository\Healthcare.Repository.csproj" />
+    <ProjectReference Include="..\Healthcare.Security\Healthcare.Security.csproj" />
+  </ItemGroup>
+
+</Project>
