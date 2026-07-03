@@ -46,7 +46,6 @@ builder.Services.AddSwaggerGen(options =>
     });
 
 });
-// added code
 
 builder.Services.AddDbContext<HealthcareDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
