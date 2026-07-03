@@ -46,7 +46,6 @@ builder.Services.AddSwaggerGen(options =>
     });
 
 });
-// added code
 
 builder.Services.AddDbContext<HealthcareDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -89,6 +88,7 @@ builder.Services.AddAuthentication(options =>
 
         IssuerSigningKey = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(key)
+            // updassted code 
         )
     };
 });
