@@ -28,7 +28,7 @@ namespace Healthcare.API.Controllers
             return Ok(new ApiResponse<object>
             {
                 Success = true,
-                Message = "Patients fetched successfully",
+                Message = "Patients retrive successfully",
                 Data = patients
             });
         }
