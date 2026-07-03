@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs
+/Healthcare.API/bin/Debug/net8.0
+/Healthcare.API/obj
+/Healthcare.Core/obj
+/Healthcare.Infrastructure/bin/Debug/net8.0
+/Healthcare.Infrastructure/obj/Debug/net8.0
+/Healthcare.Infrastructure/obj/Release/net8.0
+/Healthcare.Core/bin/Debug/net8.0
+/Healthcare.Repository/bin/Debug/net8.0
+/Healthcare.Repository/obj
+/Healthcare.Security/bin/Debug/net8.0
+/Healthcare.Security/obj
+/Healthcare.Services/bin/Debug/net8.0
+/Healthcare.Services/obj
+/Healthcare.Shared/bin/Debug/net8.0
+/Healthcare.Shared/obj
