@@ -15,5 +15,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> CreateMedicine(CreateMedicineDTO dto);
 
         Task<string> DeleteMedicine(int id);
+        // my mediacl report
     }
 }

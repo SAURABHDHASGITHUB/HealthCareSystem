@@ -16,5 +16,7 @@ namespace Healthcare.Services.Interfaces
         //Task<int> CreatePatient(PatientDTO dto);
 
         Task<bool> DeletePatient(int patientId);
+
+        // task for patient
     }
 }
