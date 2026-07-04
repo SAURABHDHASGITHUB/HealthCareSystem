@@ -8,6 +8,7 @@ using Healthcare.Infrastructure.Models;
 
 namespace Healthcare.Services.Interfaces
 {
+    // interface
     public interface IAppointmentService
     {
         Task<IEnumerable<Appointment>> GetAppointments();
