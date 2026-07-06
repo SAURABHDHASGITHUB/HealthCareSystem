@@ -16,6 +16,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> BookAppointment(BookAppointmentDTO dto);
 
         Task<string> CancelAppointment(int id);
-        //IAppointmentService  interface  from update
+        //IAppointmentService  interface from init
     }
 }
