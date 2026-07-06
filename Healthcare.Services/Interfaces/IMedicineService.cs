@@ -15,6 +15,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> CreateMedicine(CreateMedicineDTO dto);
 
         Task<string> DeleteMedicine(int id);
-      // change report as per your suggations in Interface
+        //  IMedicineService Interface
     }
 }

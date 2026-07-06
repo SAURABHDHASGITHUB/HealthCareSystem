@@ -16,6 +16,6 @@ namespace Healthcare.Services.Interfaces
 
         Task<string> DeleteSchedule(int id);
 
-        // added as per requested 
+        // IDoctorScheduleService interface
     }
 }

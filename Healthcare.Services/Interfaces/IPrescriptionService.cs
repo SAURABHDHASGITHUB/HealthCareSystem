@@ -13,5 +13,7 @@ namespace Healthcare.Services.Interfaces
         Task<string> CreatePrescription(CreatePrescriptionDTO dto);
 
         Task<IEnumerable<Prescription>> GetPrescriptions();
+
+        // IPrescriptionService interface
     }
 }
