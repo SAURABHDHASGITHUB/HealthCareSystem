@@ -14,5 +14,6 @@ namespace Healthcare.Services.Interfaces
 
         Task<IEnumerable<PrescriptionMedicine>> GetPrescriptionMedicines();
 
+        //IPrescriptionMedicineService interface
     }
 }

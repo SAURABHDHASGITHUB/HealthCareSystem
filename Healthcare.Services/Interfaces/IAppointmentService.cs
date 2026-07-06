@@ -8,7 +8,7 @@ using Healthcare.Infrastructure.Models;
 
 namespace Healthcare.Services.Interfaces
 {
-    // interface
+    
     public interface IAppointmentService
     {
         Task<IEnumerable<Appointment>> GetAppointments();
@@ -16,6 +16,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> BookAppointment(BookAppointmentDTO dto);
 
         Task<string> CancelAppointment(int id);
-
+        //IAppointmentService  interface
     }
 }

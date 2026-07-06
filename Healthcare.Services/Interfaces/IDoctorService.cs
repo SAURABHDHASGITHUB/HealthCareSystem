@@ -17,5 +17,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> UpdateDoctor(UpdateDoctorDTO dto);
 
         Task<string> DeleteDoctor(int id);
+        //IDoctorService interface
     }
 }

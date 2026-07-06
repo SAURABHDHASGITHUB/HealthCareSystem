@@ -13,5 +13,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> CreatePayment(CreatePaymentDTO dto);
 
         Task<IEnumerable<Payment>> GetPayments();
+        // IPaymentService  interface
     }
 }

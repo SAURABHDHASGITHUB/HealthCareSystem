@@ -17,6 +17,6 @@ namespace Healthcare.Services.Interfaces
 
         Task<bool> DeletePatient(int patientId);
 
-        // task for patient
+        //IPatientService interface
     }
 }
