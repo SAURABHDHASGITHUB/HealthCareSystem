@@ -17,6 +17,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> UpdateDepartment(UpdateDepartmentDTO dto);
 
         Task<string> DeleteDepartment(int id);
-        // add commits
+        // add commits in interface
     }
 }

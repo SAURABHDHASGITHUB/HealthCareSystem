@@ -12,6 +12,6 @@ namespace Healthcare.Services.Interfaces
     {
         Task<int> RegisterAsync(RegisterDTO dto);
         Task<LoginResponseDTO> LoginAsync(LoginDTO dto);
-        // change repo
+        // change repos
     }
 }

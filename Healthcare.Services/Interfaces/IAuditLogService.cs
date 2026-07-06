@@ -13,6 +13,6 @@ namespace Healthcare.Services.Interfaces
         Task<string> CreateLog(CreateAuditLogDTO dto);
 
         Task<IEnumerable<AuditLog>> GetLogs();
-
+        //IAudit Interface
     }
 }
